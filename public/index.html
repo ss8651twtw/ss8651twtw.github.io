@@ -32,7 +32,11 @@
         <main class="flex items-center justify-center text-center">
             <div class="bg-gray-50 max-w-2xl p-12 rounded-xl shadow-xl">
                 <div class="flex justify-center">
-                    <img src="/img/logo.png" alt="Logo" class="rounded-full h-48 w-48" />
+                    <picture>
+                        <source type="image/webp" srcset="/img/logo.webp">
+                        <source type="image/png" srcset="/img/logo.png">
+                        <img src="/img/logo.png" alt="Logo" class="rounded-full h-48 w-48" />
+                    </picture>
                 </div>
                 <div>
                     <div class="mt-4 text-xl font-medium text-gray-900">
